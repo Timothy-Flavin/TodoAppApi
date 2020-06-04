@@ -1,0 +1,28 @@
+{
+  "name": "todo_storage",
+  "version": "1.0.0",
+  "description": "Stores the todo data from my todo front end app",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/Timothy-Flavin/TodoAppApi"
+  },
+  "keywords": [
+    "api",
+    "hapi",
+    "mongodb",
+    "restfull"
+  ],
+  "author": "Timothy Flavin",
+  "license": "ISC",
+  "dependencies": {
+    "hapi": "^18.1.0",
+    "mongodb": "^3.5.8",
+    "nodemon": "^2.0.4",
+    "vue": "^2.6.11"
+  },
+  "devDependencies": {}
+}
