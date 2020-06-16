@@ -6,9 +6,12 @@ const mongoose = require("mongoose");
 //require('./utils/database');
 const server = Hapi.server({
   port: 4000,
-  host: 'localhost',
+  host: '192.168.1.154',
   routes: { 
-    cors: true 
+    cors: true
+    /*{
+      origin:["192.168.1.154:4000", "192.168.1.154:8080", "localhost:4000", "localhost:8080"]
+    }*/
   }
 });
 

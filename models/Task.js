@@ -1,10 +1,18 @@
 const mongoose = require('mongoose')
 const Schema = mongoose.Schema
 
-const TaskSchema = new Schema({
-    task_name:{
+const TodoListSchema = new Schema({
+    
+    todo_list_name: {
         type: String
-    }
+    }, 
+    tasks: [
+        String
+    ], 
+    tags: [
+        String
+    ]
+      
 })
 
-module.exports = User = mongoose.model('tasks', TaskSchema)
+module.exports = User = mongoose.model('todoLists', TodoListSchema)
